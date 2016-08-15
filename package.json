@@ -1,0 +1,38 @@
+{
+  "name": "redux-call-api",
+  "version": "0.0.1",
+  "description": "Nice way to perform async api calls in Redux app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha src/test --compilers js:babel-core/register",
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintcrawler/redux-call-api.git"
+  },
+  "keywords": [
+    "redux",
+    "async",
+    "api",
+    "calls"
+  ],
+  "author": "saintcrawler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintcrawler/redux-call-api/issues"
+  },
+  "homepage": "https://github.com/saintcrawler/redux-call-api#readme",
+  "devDependencies": {
+    "redux-trigger-middleware": "^0.0.1",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "es6-promise": "^3.2.1",
+    "mocha": "^2.5.3",
+    "redux": "^3.5.2"
+  }
+}
